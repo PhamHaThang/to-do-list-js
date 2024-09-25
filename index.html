@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List Task Manager</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="title">Project Task Manager</p>
+      </header>
+      <article class="task-manager">
+        <section class="search-box">
+          <form action="" class="search">
+            <input
+              type="text"
+              name="searchTask"
+              placeholder="Search Task"
+              autocomplete="off"
+            />
+            <i class="bi bi-x-circle reset"></i>
+          </form>
+        </section>
+        <section class="task-box">
+          <ul class="tasks">
+            <li>
+              <span>Learn HTML Basic</span
+              ><i class="bi bi-trash-fill delete"></i>
+            </li>
+            <li>
+              <span>Learn CSS Basic</span
+              ><i class="bi bi-trash-fill delete"></i>
+            </li>
+            <li>
+              <span>Learn JS Basic</span><i class="bi bi-trash-fill delete"></i>
+            </li>
+          </ul>
+          <form action="" class="form-tasks">
+            <input
+              type="text"
+              name="task"
+              id=""
+              placeholder="Add Task"
+              autocomplete="off"
+            />
+            <input type="submit" value="Add" />
+          </form>
+        </section>
+        <section class="message">
+          <span></span>
+          <button class="clear">Clear All</button>
+        </section>
+      </article>
+    </main>
+    <!-- js -->
+    <script src="main.js"></script>
+  </body>
+</html>
